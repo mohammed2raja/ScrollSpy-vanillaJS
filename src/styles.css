@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0;
+  padding: 20px 0 0 0;
+  position: fixed;
+  top: 20vh;
+  right: 2vw;
+  background-color: antiquewhite;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+header h2 {
+  margin: auto;
+  height: 60px;
+  padding: 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid lightblue;
+}
+nav li:first-child a {
+  border-top: 1px solid lightblue;
+}
+nav li:last-child a {
+  border: 0;
+}
+
+nav li a.active {
+  background-color: #3ca55c;
+}
+section {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section h1 {
+  font-size: 5em;
+}
+section.home {
+  background: #3ca55c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.about {
+  background: #ede574; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e1f5c4,
+    #ede574
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e1f5c4,
+    #ede574
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.contact {
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #4e4376,
+    #2b5876
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #4e4376,
+    #2b5876
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
